@@ -1,0 +1,117 @@
+.main-page {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.uploaded-image-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 70%;
+}
+
+.upload-image-block {
+  background-color: aqua;
+  width: 30%;
+}
+
+.uploaded-image-block__wrapper {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+}
+
+.uploaded-image-block__wrapper__img {
+  opacity: 0.9;
+  transition: 3s;
+  transform: none;
+  position: relative;
+}
+
+.upload-image-block__add-photo {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background: #00bdbd;
+  margin: 10px 20px;
+  border: 2px solid aquamarine;
+  border-radius: 20px;
+}
+
+.upload-image-block__animation-list {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background: #00bdbd;
+  margin: 10px 20px;
+  border: 2px solid aquamarine;
+  border-radius: 20px;
+}
+
+.upload-image-block__save-html {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+  background: #00bdbd;
+  margin: 10px 20px;
+  border: 2px solid aquamarine;
+  border-radius: 20px;
+}
+
+.upload-image-block__save-html a {
+  text-decoration: none;
+  color: #0f33b7;
+}
+
+.upload-image-block__change-photo {
+  display: grid;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 10px;
+  background: #00bdbd;
+  margin: 10px 20px;
+  border: 2px solid aquamarine;
+  border-radius: 20px;
+}
+
+.upload-image-block__change-photo div,
+.upload-image-block__location-photo div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animatedOne {
+  opacity: 0.1;
+  transition: 3s opacity;
+}
+
+.animatedTwo {
+  transform: scale(1.5, 0.5);
+  transition: 3s;
+}
+
+.animatedThree {
+  transform: rotate(0.5turn);
+  transition: 3s;
+}
+
+.upload-image-block__location-photo {
+  display: grid;
+  font-size: 12px;
+  text-align: center;
+  padding: 5px 10px;
+  background: #00bdbd;
+  margin: 10px 20px;
+  border: 2px solid aquamarine;
+  border-radius: 20px;
+}
